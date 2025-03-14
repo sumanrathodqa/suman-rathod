@@ -67,8 +67,8 @@ Ensuring the homepage displays correct and valid values is crucial for accurate 
 ### 2. Accurate Expense and Income Breakdown  
 - Ensure that the displayed category-wise breakdown matches the actual transactions.  
 
-### 3. Currency and Formatting Validation  
-- Confirm that the correct currency symbol and decimal formatting are displayed to prevent UI or localization issues.  
+### 3. Formatting Validation  
+- Confirm that the valid values are displayed.  
 
 ## End-to-End Test Scenarios  
 
