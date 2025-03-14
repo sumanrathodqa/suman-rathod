@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741984825403' stop='1741984870192'>
+    <name>Transaction Tests - Add income</name>
+    <title>Transaction Tests - Add income</title>
+    <test-cases>
+        <test-case start='1741984841977' status='passed' stop='1741984869719'>
+            <name>Should add an Income amount and select 'Deposits' category</name>
+            <title>Should add an Income amount and select 'Deposits' category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

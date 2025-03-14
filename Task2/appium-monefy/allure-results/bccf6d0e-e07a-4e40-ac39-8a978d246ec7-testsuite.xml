@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741984734421' stop='1741984788535'>
+    <name>Transaction Tests - Add expenses</name>
+    <title>Transaction Tests - Add expenses</title>
+    <test-cases>
+        <test-case start='1741984759523' status='passed' stop='1741984788181'>
+            <name>Should add an expense and select 'Bills' as category</name>
+            <title>Should add an expense and select 'Bills' as category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

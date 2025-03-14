@@ -1,0 +1,25 @@
+{
+  "name": "appium-monefy",
+  "version": "1.0.0",
+  "description": "Appium automation framework to test Monefy",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js --timeout 60000 --exit --reporter mocha-allure-reporter",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^9.3.1",
+    "allure-commandline": "^2.33.0",
+    "allure-mocha": "^3.2.0",
+    "appium": "^2.0.0",
+    "chai": "^5.2.0",
+    "chai-as-promised": "^8.0.1",
+    "mocha": "^11.1.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "webdriverio": "^9.12.0"
+  }
+}
