@@ -28,10 +28,11 @@ petstore-api-tests/
 │── README.md
 ```
 
+The app must be installed on your Android emulator.
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/petstore-api-tests.git
+   git clone <repositary link>
    ```
 2. Navigate to the project directory:
    ```sh
@@ -41,7 +42,12 @@ petstore-api-tests/
    ```sh
    mvn clean install
    ```
-
+## Prerequisites
+Before running the tests, ensure the server is running.
+The server is available at - https://github.com/swagger-api/swagger-petstore?tab=readme-ov-file
+```sh
+mvn package jetty:run
+```
 ## Running the Tests
 Execute the following command to run the test suite:
 ```sh
